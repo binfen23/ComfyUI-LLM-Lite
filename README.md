@@ -21,6 +21,12 @@
 
 将本目录复制到 ComfyUI 的 `custom_nodes/` 下（目录名建议 `ComfyUI-LLM-Lite`），重启 ComfyUI，浏览器硬刷新（`Ctrl+Shift+R`）加载前端脚本。
 
+![API](https://raw.githubusercontent.com/binfen23/ComfyUI-LLM-Lite/refs/heads/main/img/API.png)  
+
+![本地 llamacpp](https://github.com/binfen23/ComfyUI-LLM-Lite/blob/main/img/local.png?raw=true)
+
+
+
 ## 本地 llama.cpp 使用说明
 
 本地推理**必须**以 **Router Mode** 启动 `llama-server`（llama.cpp b10883+），否则本插件的模型列表、`/models/load`、`/models/unload`、`proxy error` 自动重载均不可用。
